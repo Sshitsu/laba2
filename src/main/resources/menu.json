@@ -1,0 +1,26 @@
+[
+  {
+    "type": "dish",
+    "name": "Pasta",
+    "cost": 11.4,
+    "hours": 11,
+    "minutes": 11,
+    "grams": 100
+  },
+  {
+    "type": "dish",
+    "name": "Salad",
+    "cost": 20.2,
+    "hours": 11,
+    "minutes": 11,
+    "grams": 200
+  },
+  {
+    "type": "drinks",
+    "name": "Cola",
+    "cost": 20.2,
+    "hours": 11,
+    "minutes": 11,
+    "milliliters": 245
+  }
+]
