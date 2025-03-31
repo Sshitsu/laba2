@@ -6,6 +6,7 @@ public  class Drinks extends ObjectFromMenu {
 
     private int milliliters;
 
+    public Drinks(){}
     public Drinks(String name, double cost, int hours, int minutes, int milliliters) {
         super(name, cost, hours, minutes);
         this.milliliters = milliliters;

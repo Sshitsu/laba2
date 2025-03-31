@@ -10,6 +10,8 @@ public  class Food extends ObjectFromMenu {
         return grams;
     }
 
+    public Food(){}
+
     public Food(String name, double cost, int hours, int minutes, int grams) {
         super(name, cost, hours, minutes);
         this.grams = grams;

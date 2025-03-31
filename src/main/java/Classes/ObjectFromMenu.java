@@ -11,6 +11,10 @@ public abstract class ObjectFromMenu {
     private double cost;
 
 
+    public ObjectFromMenu() {
+
+    }
+
     ObjectFromMenu(String name, double cost, int hours, int minutes) {
         this.name = name;
         this.cost = cost;
