@@ -17,6 +17,6 @@ public  class Food extends ObjectFromMenu {
 
     @Override
     public String toString() {
-        return "It's a dish " + getName() + ", it cost=" + getCost() + ", and time to cook " + getTimeToCook() + ", and " + getGrams() + " grams ";
+        return "It's a dish " + getName() + ", it cost=" + getCost() + ", and time to cook " + getHours() + getMinutes() + ", and " + getGrams() + " grams ";
     }
 }

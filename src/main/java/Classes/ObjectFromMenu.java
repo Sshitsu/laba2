@@ -4,7 +4,9 @@ import java.time.LocalTime;
 
 
 public abstract class ObjectFromMenu {
-    private LocalTime timeToCook;
+
+    private int hours;
+    private int minutes;
     private String name;
     private double cost;
 
@@ -12,12 +14,16 @@ public abstract class ObjectFromMenu {
     ObjectFromMenu(String name, double cost, int hours, int minutes) {
         this.name = name;
         this.cost = cost;
-        this.timeToCook = LocalTime.of(hours, minutes);
+        this.hours = hours;
+        this.minutes = minutes;
     }
 
 
-    public LocalTime getTimeToCook() {
-        return timeToCook;
+    public int getHours(){
+        return hours;
+    }
+    public int getMinutes(){
+        return minutes;
     }
 
     public String getName() {
@@ -29,7 +35,8 @@ public abstract class ObjectFromMenu {
     }
 
     public void setTimeToCook(int hours, int minutes) {
-        this.timeToCook = LocalTime.of(hours,minutes);
+        this.hours = hours;
+        this.minutes = minutes;
     }
 
     public void setName(String name) {

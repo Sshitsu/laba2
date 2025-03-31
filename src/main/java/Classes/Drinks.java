@@ -17,6 +17,6 @@ public  class Drinks extends ObjectFromMenu {
 
     @Override
     public String toString() {
-        return "It's a drink " + getName() + ", it cost " + getCost() + ", and time to cook " + getTimeToCook() + ", and " + getMilliliters() + " milliliters ";
+        return "It's a drink " + getName() + ", it cost " + getCost() + ", and time to cook " + getHours() + getMinutes() + ", and " + getMilliliters() + " milliliters ";
     }
 }
