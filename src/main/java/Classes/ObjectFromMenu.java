@@ -1,34 +1,33 @@
 package Classes;
 
-import java.time.LocalTime;
+import java.sql.Time;
+
 
 
 public abstract class ObjectFromMenu {
 
-    private int hours;
-    private int minutes;
+
     private String name;
     private double cost;
+
+    private Time timeToCook;
 
 
     public ObjectFromMenu() {
 
     }
 
-    ObjectFromMenu(String name, double cost, int hours, int minutes) {
+    ObjectFromMenu(String name, double cost, Time timeToCook) {
         this.name = name;
         this.cost = cost;
-        this.hours = hours;
-        this.minutes = minutes;
+        this.timeToCook = timeToCook;
+    }
+
+    public Time getTimeToCook() {
+        return timeToCook;
     }
 
 
-    public int getHours(){
-        return hours;
-    }
-    public int getMinutes(){
-        return minutes;
-    }
 
     public String getName() {
         return name;
@@ -36,11 +35,6 @@ public abstract class ObjectFromMenu {
 
     public double getCost() {
         return cost;
-    }
-
-    public void setTimeToCook(int hours, int minutes) {
-        this.hours = hours;
-        this.minutes = minutes;
     }
 
     public void setName(String name) {

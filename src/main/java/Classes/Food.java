@@ -1,6 +1,9 @@
 package Classes;
 
-import java.time.LocalTime;
+
+
+import java.sql.Time;
+
 
 public  class Food extends ObjectFromMenu {
 
@@ -12,13 +15,14 @@ public  class Food extends ObjectFromMenu {
 
     public Food(){}
 
-    public Food(String name, double cost, int hours, int minutes, int grams) {
-        super(name, cost, hours, minutes);
+    public Food(String name, double cost,int grams, Time timeToCook) {
+        super(name, cost,timeToCook);
         this.grams = grams;
+
     }
 
     @Override
     public String toString() {
-        return "It's a dish " + getName() + ", it cost=" + getCost() + ", and time to cook " + getHours() + getMinutes() + ", and " + getGrams() + " grams ";
+        return "It's a dish " + getName() + ", it cost=" + getCost() + ", and time to cook " + getTimeToCook().toString() + ", and " + getGrams() + " grams ";
     }
 }
