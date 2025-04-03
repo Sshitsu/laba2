@@ -4,6 +4,9 @@ import Classes.Drinks;
 import Classes.Food;
 import Classes.ObjectFromMenu;
 import Main.Main;
+import org.apache.log4j.Logger;
+import org.apache.log4j.Level;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -13,14 +16,19 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+
+
+
 public class GUI {
 
+    private static Logger logger = Logger.getLogger(GUI.class);
     public void createGUI(List<ObjectFromMenu> menuItems) {
+
         JFrame frame = new JFrame("Menu");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(900, 400);
 
-        // Создание таблицы для отображения объектов меню
+
         DefaultTableModel tableModel = new DefaultTableModel();
         tableModel.addColumn("Type");
         tableModel.addColumn("Name");
@@ -102,6 +110,7 @@ public class GUI {
                         Date parsedDate = sdf.parse(timeString);
                         timeToCook = new Time(parsedDate.getTime());
                     } catch (Exception ex) {
+                        logger.log(org.apache.log4j.Level.WARN, "Invalid numeric values");
                         JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
                         return;
                     }
@@ -120,6 +129,7 @@ public class GUI {
                         });
                     }
                 } catch (NumberFormatException ex) {
+                    logger.log(Level.WARN, "Invalid numeric values");
                     JOptionPane.showMessageDialog(frame, "Please enter valid numeric values", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
@@ -133,6 +143,7 @@ public class GUI {
                 menuItems.remove(selectedRow);
                 tableModel.removeRow(selectedRow);
             } else {
+                logger.log(Level.WARN, "Didn't chose any object to delete");
                 JOptionPane.showMessageDialog(frame, "Choose an object to delete", "Error", JOptionPane.ERROR_MESSAGE);
             }
         });
@@ -144,6 +155,7 @@ public class GUI {
                 Main.saveToJson(menuItems);
                 JOptionPane.showMessageDialog(frame, "Data was saved", "Success", JOptionPane.INFORMATION_MESSAGE);
             } catch (IOException ex) {
+                logger.log(Level.WARN, "Data wasn't saving");
                 JOptionPane.showMessageDialog(frame, "Error saving data", "Error", JOptionPane.ERROR_MESSAGE);
             }
         });
