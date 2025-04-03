@@ -1,0 +1,9 @@
+2025-04-03 21:21:00 INFO  Main:31 - Application started
+2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish Pasta, it cost=124.0, and time to cook 00:12:00, and 124 grams 
+2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish Salmon, it cost=12.4, and time to cook 00:05:00, and 200 grams 
+2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish afa, it cost=214.0, and time to cook 12:23:00, and 1241 grams 
+2025-04-03 21:21:00 INFO  Main:98 - Add new objectIt's a drink Cola, it cost 24.0, and time to cook 00:22:00100 milliliters 
+2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish af, it cost=12.0, and time to cook 00:22:00, and 142 grams 
+2025-04-03 21:21:10 WARN  GUI:132 - Invalid numeric values
+2025-04-03 21:21:43 INFO  Main:31 - Application started
+2025-04-03 21:22:09 INFO  Main:31 - Application started
