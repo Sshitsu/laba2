@@ -16,7 +16,10 @@ import org.apache.log4j.PropertyConfigurator;
 import javax.swing.*;
 import java.io.*;
 import java.sql.Time;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 
@@ -28,7 +31,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         PropertyConfigurator.configure("src/main/resources/log4j.properties");
 
-        logger.info("Application started");
+        //logger.info("Application started");
 
         JsonNode rootNode = readFile();
         List<ObjectFromMenu> menuList = parseFile(rootNode);
@@ -50,7 +53,7 @@ public class Main {
         InputStream inputStream = Main.class.getResourceAsStream("/menu.json");
 
         if (inputStream == null) {
-            logger.log(Level.WARN, "Resource not found");
+            logger.log(Level.ERROR, "Resource not found");
             throw new FileNotFoundException("Resource not found: menu.json");
         }
 
@@ -64,6 +67,7 @@ public class Main {
         List<ObjectFromMenu> menuItems = new ArrayList<>();
 
         for (JsonNode node : rootNode) {
+
             if(node.get("type") == null){
                 logger.log(Level.WARN, "Invalid type of json value");
                 continue;
@@ -74,19 +78,42 @@ public class Main {
                 if (node.get("name") == null || node.get("cost") == null  || node.get("Grams") == null || node.get("Time to cook") == null) {
                     logger.log(Level.WARN, "Invalid type of json value or don't all values matter or they have incorrect value");
                     continue;
+                }else if(node.get("cost").asInt() <= 0 || node.get("Grams").asDouble() <= 0){
+                    logger.log(Level.WARN, "Invalid type of json value");
+                    continue;
+                } else if (node.get("Time to cook").asText().length() > 8) {
+                    logger.log(Level.WARN, "Invalid type of time value");
+                    continue;
+                }
+                String name = node.get("name").asText();
+
+                String timeString = node.get("Time to cook").asText();
+                SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+                Time timeToCook = null;
+                try {
+                    Date parsedDate = sdf.parse(timeString);
+                    timeToCook = new Time(parsedDate.getTime());
+                } catch (Exception ex) {
+                    logger.log(org.apache.log4j.Level.WARN, "Invalid time value");
+                    continue;
                 }
 
-                String name = node.get("name").asText();
-                double cost = node.get("cost").asDouble();
 
+                double cost = node.get("cost").asDouble();
                 int grams = node.get("Grams").asInt();
-                Time timeToCook = Time.valueOf(node.get("Time to cook").asText());
                 menuItems.add(new Food(name, cost, grams, timeToCook));
-                //logger.log(Level.INFO, "Add new object" + new Food(name, cost, grams, timeToCook).toString());
+
+
 
             } else if ("Drinks".equalsIgnoreCase(type)) {
                 if (node.get("name") == null || node.get("cost") == null || node.get("Milliliters") == null || node.get("Time to cook") == null) {
                     logger.log(Level.WARN, "Invalid type of json value or don't all values matter or they have incorrect value");
+                    continue;
+                }else if(node.get("cost").asDouble() <= 0 || node.get("Milliliters").asInt() <= 0){
+                    logger.log(Level.WARN, "Invalid type of json value");
+                    continue;
+                }else if (node.get("Time to cook").asText().length() > 8) {
+                    logger.log(Level.WARN, "Invalid type of time value");
                     continue;
                 }
                 String name = node.get("name").asText();
@@ -95,7 +122,10 @@ public class Main {
                 int milliliters = node.get("Milliliters").asInt();
                 Time timeToCook = Time.valueOf(node.get("Time to cook").asText());
                 menuItems.add(new Drinks(name, cost, milliliters, timeToCook));
-                //logger.log(Level.INFO, "Add new object" + new Drinks(name, cost, milliliters, timeToCook).toString());
+                if(milliliters <= 0 || cost <= 0 ) {
+                    logger.log(Level.WARN, "Not correct value");
+                    throw new NumberFormatException("Not correct value");
+                }
             }
         }
         return menuItems;
