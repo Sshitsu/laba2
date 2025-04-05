@@ -1,11 +1,11 @@
 package Classes;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 
 import java.sql.Time;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+
 public  class Drinks extends ObjectFromMenu {
 
     private int milliliters;

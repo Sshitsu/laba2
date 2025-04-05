@@ -13,6 +13,7 @@ import java.awt.*;
 import java.io.IOException;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -21,7 +22,7 @@ import java.util.List;
 
 public class GUI {
 
-    private static Logger logger = Logger.getLogger(GUI.class);
+    private static final Logger logger = Logger.getLogger(GUI.class);
     public void createGUI(List<ObjectFromMenu> menuItems) {
 
         JFrame frame = new JFrame("Menu");
@@ -98,11 +99,24 @@ public class GUI {
             int option = JOptionPane.showConfirmDialog(frame, inputPanel, "Enter object details", JOptionPane.OK_CANCEL_OPTION);
 
             if (option == JOptionPane.OK_OPTION) {
+
                 try {
                     String name = nameField.getText();
-                    double cost = Double.parseDouble(costField.getText());
+                    char[] arr = name.toCharArray();
+                    for (char letter: arr){
+                        if (!Character.isLetter(letter)){
+                            logger.log(org.apache.log4j.Level.WARN, "Invalid name value");
+                            JOptionPane.showMessageDialog(frame, "Invalid name value! Please use only letters.", "Error", JOptionPane.ERROR_MESSAGE);
+                            return;
+                        }
+                    }
 
                     String timeString = timeToCookField.getText();
+                    if(timeString.length() > 8) {
+                        logger.log(org.apache.log4j.Level.WARN, "Invalid numeric values");
+                        JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
                     SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
                     Time timeToCook = null;
 
@@ -117,12 +131,24 @@ public class GUI {
 
                     if ("Dish".equals(type)) {
                         int grams = Integer.parseInt(gramsField.getText());
+                        double cost = Double.parseDouble(costField.getText());
+                        if(grams <= 0 || cost < 0) {
+                            logger.log(Level.WARN, "Invalid numeric values");
+                            JOptionPane.showMessageDialog(frame, "Invalid numeric values","Error", JOptionPane.ERROR_MESSAGE);
+                            return;
+                        }
                         menuItems.add(new Food(name, cost,  grams, timeToCook));
                         tableModel.addRow(new Object[]{
                                 "Dish", name, cost, grams, null, timeToCook
                         });
                     } else if ("Drinks".equals(type)) {
                         int milliliters = Integer.parseInt(millilitersField.getText());
+                        double cost = Double.parseDouble(costField.getText());
+                        if(milliliters <= 0 || cost < 0) {
+                            logger.log(Level.WARN, "Invalid numeric values");
+                            JOptionPane.showMessageDialog(frame, "Invalid numeric values","Error", JOptionPane.ERROR_MESSAGE);
+                            return;
+                        }
                         menuItems.add(new Drinks(name, cost, milliliters, timeToCook));
                         tableModel.addRow(new Object[]{
                                 "Drinks", name, cost,null, milliliters, timeToCook

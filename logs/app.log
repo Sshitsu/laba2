@@ -7,3 +7,92 @@
 2025-04-03 21:21:10 WARN  GUI:132 - Invalid numeric values
 2025-04-03 21:21:43 INFO  Main:31 - Application started
 2025-04-03 21:22:09 INFO  Main:31 - Application started
+2025-04-03 21:32:04 INFO  Main:31 - Application started
+2025-04-04 09:12:16 INFO  Main:31 - Application started
+2025-04-05 10:16:40 INFO  Main:31 - Application started
+2025-04-05 10:17:17 INFO  Main:31 - Application started
+2025-04-05 10:17:27 INFO  Main:31 - Application started
+2025-04-05 10:17:47 INFO  Main:31 - Application started
+2025-04-05 10:20:19 INFO  Main:31 - Application started
+2025-04-05 10:25:26 INFO  Main:31 - Application started
+2025-04-05 10:26:06 INFO  Main:31 - Application started
+2025-04-05 10:26:06 WARN  Main:86 - Not correct valu
+2025-04-05 10:26:50 INFO  Main:31 - Application started
+2025-04-05 10:26:50 WARN  Main:86 - Not correct value
+2025-04-05 11:14:05 INFO  Main:31 - Application started
+2025-04-05 11:14:05 WARN  Main:86 - Not correct value
+2025-04-05 11:15:48 INFO  Main:31 - Application started
+2025-04-05 11:15:48 WARN  Main:86 - Not correct value
+2025-04-05 11:16:10 INFO  Main:31 - Application started
+2025-04-05 11:16:10 WARN  Main:86 - Not correct value
+2025-04-05 11:16:21 INFO  Main:31 - Application started
+2025-04-05 11:16:21 WARN  Main:86 - Not correct value
+2025-04-05 11:16:32 WARN  GUI:113 - Invalid numeric values
+2025-04-05 11:22:32 INFO  Main:31 - Application started
+2025-04-05 11:22:32 WARN  Main:86 - Not correct value
+2025-04-05 11:24:07 INFO  Main:31 - Application started
+2025-04-05 11:24:07 WARN  Main:86 - Not correct value
+2025-04-05 11:25:57 INFO  Main:31 - Application started
+2025-04-05 11:25:57 WARN  Main:86 - Not correct value
+2025-04-05 11:29:11 INFO  Main:31 - Application started
+2025-04-05 11:29:11 WARN  Main:86 - Not correct value
+2025-04-05 11:31:03 INFO  Main:31 - Application started
+2025-04-05 11:31:03 WARN  Main:86 - Not correct value
+2025-04-05 11:31:18 WARN  GUI:122 - Invalid numeric values
+2025-04-05 11:31:32 INFO  Main:31 - Application started
+2025-04-05 11:31:32 WARN  Main:86 - Not correct value
+2025-04-05 11:31:44 WARN  GUI:122 - Invalid numeric values
+2025-04-05 11:34:14 INFO  Main:31 - Application started
+2025-04-05 11:34:15 WARN  Main:86 - Not correct value
+2025-04-05 11:34:27 WARN  GUI:122 - Invalid numeric values
+2025-04-05 11:36:15 INFO  Main:31 - Application started
+2025-04-05 11:36:16 WARN  Main:86 - Not correct value
+2025-04-05 11:40:17 WARN  Main:86 - Not correct value
+2025-04-05 11:41:59 WARN  Main:79 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-05 11:43:33 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:44:04 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:45:29 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:45:57 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:46:30 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:46:49 WARN  Main:79 - Invalid type of json value
+2025-04-05 11:49:22 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:49:38 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:50:15 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:51:00 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:51:23 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
+2025-04-05 11:52:38 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:52:55 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:52:55 WARN  Main:91 - Invalid time values
+2025-04-05 11:53:06 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:53:19 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:53:33 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:53:55 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:54:19 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:56:08 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:56:08 WARN  Main:84 - Invalid type of json value
+2025-04-05 11:57:18 WARN  Main:81 - Invalid type of json value
+2025-04-05 11:57:18 WARN  Main:84 - Invalid type of time value
+2025-04-05 11:57:40 WARN  GUI:107 - Invalid numeric values
+2025-04-05 12:01:18 WARN  Main:81 - Invalid type of json value
+2025-04-05 12:01:18 WARN  Main:84 - Invalid type of time value
+2025-04-05 12:01:28 WARN  GUI:107 - Invalid name value
+2025-04-05 12:29:27 WARN  Main:82 - Invalid type of json value
+2025-04-05 12:29:27 WARN  Main:85 - Invalid type of time value
+2025-04-05 12:29:38 WARN  Main:85 - Invalid type of time value
+2025-04-05 12:47:30 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:30 WARN  Main:85 - Invalid type of time value
+2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main:85 - Invalid type of time value
+2025-04-05 12:53:12 WARN  Main:85 - Invalid type of time value
+2025-04-05 13:05:25 WARN  Main:85 - Invalid type of time value
