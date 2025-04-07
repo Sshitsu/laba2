@@ -1,8 +1,8 @@
 package Main;
 
-import Classes.Food;
-import Classes.Drinks;
-import Classes.ObjectFromMenu;
+import Models.Food;
+import Models.Drinks;
+import Models.ObjectFromMenu;
 import GUI.GUI;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -18,7 +18,6 @@ import java.io.*;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -31,7 +30,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         PropertyConfigurator.configure("src/main/resources/log4j.properties");
 
-        //logger.info("Application started");
 
         JsonNode rootNode = readFile();
         List<ObjectFromMenu> menuList = parseFile(rootNode);

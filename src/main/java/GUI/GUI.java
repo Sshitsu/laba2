@@ -1,8 +1,8 @@
 package GUI;
 
-import Classes.Drinks;
-import Classes.Food;
-import Classes.ObjectFromMenu;
+import Models.Drinks;
+import Models.Food;
+import Models.ObjectFromMenu;
 import Main.Main;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Level;
@@ -13,7 +13,6 @@ import java.awt.*;
 import java.io.IOException;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -26,7 +25,7 @@ public class GUI {
     public void createGUI(List<ObjectFromMenu> menuItems) {
 
         JFrame frame = new JFrame("Menu");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setSize(900, 400);
 
 
@@ -113,7 +112,7 @@ public class GUI {
 
                     String timeString = timeToCookField.getText();
                     if(timeString.length() > 8) {
-                        logger.log(org.apache.log4j.Level.WARN, "Invalid numeric values");
+                        logger.log(org.apache.log4j.Level.WARN, "Invalid time format");
                         JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
                         return;
                     }
@@ -124,7 +123,7 @@ public class GUI {
                         Date parsedDate = sdf.parse(timeString);
                         timeToCook = new Time(parsedDate.getTime());
                     } catch (Exception ex) {
-                        logger.log(org.apache.log4j.Level.WARN, "Invalid numeric values");
+                        logger.log(org.apache.log4j.Level.WARN, "Invalid time format!");
                         JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
                         return;
                     }
