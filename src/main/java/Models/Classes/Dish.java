@@ -1,24 +1,18 @@
-package Models;
-
-
+package Models.Classes;
 
 import java.sql.Time;
 
 
-public  class Food extends ObjectFromMenu {
-
+public  class Dish extends ObjectFromMenu {
     private int grams;
 
-    public int getGrams() {
-        return grams;
-    }
-
-    public Food(){}
-
-    public Food(String name, double cost,int grams, Time timeToCook) {
+    public Dish(String name, double cost, int grams, Time timeToCook) {
         super(name, cost,timeToCook);
         this.grams = grams;
 
+    }
+    public int getGrams() {
+        return grams;
     }
 
     @Override

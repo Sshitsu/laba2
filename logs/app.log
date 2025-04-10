@@ -1,106 +1,160 @@
-2025-04-03 21:21:00 INFO  Main:31 - Application started
-2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish Pasta, it cost=124.0, and time to cook 00:12:00, and 124 grams 
-2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish Salmon, it cost=12.4, and time to cook 00:05:00, and 200 grams 
-2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish afa, it cost=214.0, and time to cook 12:23:00, and 1241 grams 
-2025-04-03 21:21:00 INFO  Main:98 - Add new objectIt's a drink Cola, it cost 24.0, and time to cook 00:22:00100 milliliters 
-2025-04-03 21:21:00 INFO  Main:85 - Add new objectIt's a dish af, it cost=12.0, and time to cook 00:22:00, and 142 grams 
-2025-04-03 21:21:10 WARN  GUI:132 - Invalid numeric values
-2025-04-03 21:21:43 INFO  Main:31 - Application started
-2025-04-03 21:22:09 INFO  Main:31 - Application started
-2025-04-03 21:32:04 INFO  Main:31 - Application started
-2025-04-04 09:12:16 INFO  Main:31 - Application started
-2025-04-05 10:16:40 INFO  Main:31 - Application started
-2025-04-05 10:17:17 INFO  Main:31 - Application started
-2025-04-05 10:17:27 INFO  Main:31 - Application started
-2025-04-05 10:17:47 INFO  Main:31 - Application started
-2025-04-05 10:20:19 INFO  Main:31 - Application started
-2025-04-05 10:25:26 INFO  Main:31 - Application started
-2025-04-05 10:26:06 INFO  Main:31 - Application started
-2025-04-05 10:26:06 WARN  Main:86 - Not correct valu
-2025-04-05 10:26:50 INFO  Main:31 - Application started
-2025-04-05 10:26:50 WARN  Main:86 - Not correct value
-2025-04-05 11:14:05 INFO  Main:31 - Application started
-2025-04-05 11:14:05 WARN  Main:86 - Not correct value
-2025-04-05 11:15:48 INFO  Main:31 - Application started
-2025-04-05 11:15:48 WARN  Main:86 - Not correct value
-2025-04-05 11:16:10 INFO  Main:31 - Application started
-2025-04-05 11:16:10 WARN  Main:86 - Not correct value
-2025-04-05 11:16:21 INFO  Main:31 - Application started
-2025-04-05 11:16:21 WARN  Main:86 - Not correct value
-2025-04-05 11:16:32 WARN  GUI:113 - Invalid numeric values
-2025-04-05 11:22:32 INFO  Main:31 - Application started
-2025-04-05 11:22:32 WARN  Main:86 - Not correct value
-2025-04-05 11:24:07 INFO  Main:31 - Application started
-2025-04-05 11:24:07 WARN  Main:86 - Not correct value
-2025-04-05 11:25:57 INFO  Main:31 - Application started
-2025-04-05 11:25:57 WARN  Main:86 - Not correct value
-2025-04-05 11:29:11 INFO  Main:31 - Application started
-2025-04-05 11:29:11 WARN  Main:86 - Not correct value
-2025-04-05 11:31:03 INFO  Main:31 - Application started
-2025-04-05 11:31:03 WARN  Main:86 - Not correct value
-2025-04-05 11:31:18 WARN  GUI:122 - Invalid numeric values
-2025-04-05 11:31:32 INFO  Main:31 - Application started
-2025-04-05 11:31:32 WARN  Main:86 - Not correct value
-2025-04-05 11:31:44 WARN  GUI:122 - Invalid numeric values
-2025-04-05 11:34:14 INFO  Main:31 - Application started
-2025-04-05 11:34:15 WARN  Main:86 - Not correct value
-2025-04-05 11:34:27 WARN  GUI:122 - Invalid numeric values
-2025-04-05 11:36:15 INFO  Main:31 - Application started
-2025-04-05 11:36:16 WARN  Main:86 - Not correct value
-2025-04-05 11:40:17 WARN  Main:86 - Not correct value
-2025-04-05 11:41:59 WARN  Main:79 - Invalid type of json value or don't all values matter or they have incorrect value
-2025-04-05 11:43:33 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:44:04 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:45:29 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:45:57 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:46:30 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:46:49 WARN  Main:79 - Invalid type of json value
-2025-04-05 11:49:22 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:49:38 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:50:15 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:51:00 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:51:23 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:51:23 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:51:44 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:51:44 WARN  Main:92 - Invalid numeric values
-2025-04-05 11:52:38 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:52:55 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:52:55 WARN  Main:91 - Invalid time values
-2025-04-05 11:53:06 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:53:19 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:53:33 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:53:55 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:54:19 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:56:08 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:56:08 WARN  Main:84 - Invalid type of json value
-2025-04-05 11:57:18 WARN  Main:81 - Invalid type of json value
-2025-04-05 11:57:18 WARN  Main:84 - Invalid type of time value
-2025-04-05 11:57:40 WARN  GUI:107 - Invalid numeric values
-2025-04-05 12:01:18 WARN  Main:81 - Invalid type of json value
-2025-04-05 12:01:18 WARN  Main:84 - Invalid type of time value
-2025-04-05 12:01:28 WARN  GUI:107 - Invalid name value
-2025-04-05 12:29:27 WARN  Main:82 - Invalid type of json value
-2025-04-05 12:29:27 WARN  Main:85 - Invalid type of time value
-2025-04-05 12:29:38 WARN  Main:85 - Invalid type of time value
-2025-04-05 12:47:30 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:30 WARN  Main:85 - Invalid type of time value
-2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:37 WARN  Main:92 - Invalid name value
-2025-04-05 12:47:37 WARN  Main:85 - Invalid type of time value
-2025-04-05 12:53:12 WARN  Main:85 - Invalid type of time value
-2025-04-05 13:05:25 WARN  Main:85 - Invalid type of time value
-2025-04-05 15:45:51 WARN  Main:85 - Invalid type of time value
-2025-04-07 12:58:18 WARN  Main:85 - Invalid type of time value
-2025-04-07 12:58:24 WARN  GUI:127 - Invalid numeric values
-2025-04-07 12:58:32 WARN  GUI:127 - Invalid numeric values
-2025-04-07 12:58:39 WARN  GUI:172 - Didn't chose any object to delete
-2025-04-07 13:00:20 WARN  Main:85 - Invalid type of time value
-2025-04-07 13:02:59 WARN  Main:84 - Invalid type of time value
-2025-04-07 13:05:07 WARN  GUI:171 - Didn't chose any object to delete
+2025-04-03 21:21:00 INFO  Main.Main:31 - Application started
+2025-04-03 21:21:00 INFO  Main.Main:85 - Add new objectIt's a dish Pasta, it cost=124.0, and time to cook 00:12:00, and 124 grams
+2025-04-03 21:21:00 INFO  Main.Main:85 - Add new objectIt's a dish Salmon, it cost=12.4, and time to cook 00:05:00, and 200 grams
+2025-04-03 21:21:00 INFO  Main.Main:85 - Add new objectIt's a dish afa, it cost=214.0, and time to cook 12:23:00, and 1241 grams
+2025-04-03 21:21:00 INFO  Main.Main:98 - Add new objectIt's a drink Cola, it cost 24.0, and time to cook 00:22:00100 milliliters
+2025-04-03 21:21:00 INFO  Main.Main:85 - Add new objectIt's a dish af, it cost=12.0, and time to cook 00:22:00, and 142 grams
+2025-04-03 21:21:10 WARN  View:132 - Invalid numeric values
+2025-04-03 21:21:43 INFO  Main.Main:31 - Application started
+2025-04-03 21:22:09 INFO  Main.Main:31 - Application started
+2025-04-03 21:32:04 INFO  Main.Main:31 - Application started
+2025-04-04 09:12:16 INFO  Main.Main:31 - Application started
+2025-04-05 10:16:40 INFO  Main.Main:31 - Application started
+2025-04-05 10:17:17 INFO  Main.Main:31 - Application started
+2025-04-05 10:17:27 INFO  Main.Main:31 - Application started
+2025-04-05 10:17:47 INFO  Main.Main:31 - Application started
+2025-04-05 10:20:19 INFO  Main.Main:31 - Application started
+2025-04-05 10:25:26 INFO  Main.Main:31 - Application started
+2025-04-05 10:26:06 INFO  Main.Main:31 - Application started
+2025-04-05 10:26:06 WARN  Main.Main:86 - Not correct valu
+2025-04-05 10:26:50 INFO  Main.Main:31 - Application started
+2025-04-05 10:26:50 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:14:05 INFO  Main.Main:31 - Application started
+2025-04-05 11:14:05 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:15:48 INFO  Main.Main:31 - Application started
+2025-04-05 11:15:48 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:16:10 INFO  Main.Main:31 - Application started
+2025-04-05 11:16:10 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:16:21 INFO  Main.Main:31 - Application started
+2025-04-05 11:16:21 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:16:32 WARN  View:113 - Invalid numeric values
+2025-04-05 11:22:32 INFO  Main.Main:31 - Application started
+2025-04-05 11:22:32 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:24:07 INFO  Main.Main:31 - Application started
+2025-04-05 11:24:07 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:25:57 INFO  Main.Main:31 - Application started
+2025-04-05 11:25:57 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:29:11 INFO  Main.Main:31 - Application started
+2025-04-05 11:29:11 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:31:03 INFO  Main.Main:31 - Application started
+2025-04-05 11:31:03 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:31:18 WARN  View:122 - Invalid numeric values
+2025-04-05 11:31:32 INFO  Main.Main:31 - Application started
+2025-04-05 11:31:32 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:31:44 WARN  View:122 - Invalid numeric values
+2025-04-05 11:34:14 INFO  Main.Main:31 - Application started
+2025-04-05 11:34:15 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:34:27 WARN  View:122 - Invalid numeric values
+2025-04-05 11:36:15 INFO  Main.Main:31 - Application started
+2025-04-05 11:36:16 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:40:17 WARN  Main.Main:86 - Not correct value
+2025-04-05 11:41:59 WARN  Main.Main:79 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-05 11:43:33 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:44:04 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:45:29 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:45:57 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:46:30 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:46:49 WARN  Main.Main:79 - Invalid type of json value
+2025-04-05 11:49:22 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:49:38 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:50:15 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:51:00 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:51:23 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:51:23 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:51:23 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:51:23 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:51:44 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:51:44 WARN  Main.Main:92 - Invalid numeric values
+2025-04-05 11:52:38 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:52:55 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:52:55 WARN  Main.Main:91 - Invalid time values
+2025-04-05 11:53:06 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:53:19 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:53:33 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:53:55 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:54:19 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:56:08 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:56:08 WARN  Main.Main:84 - Invalid type of json value
+2025-04-05 11:57:18 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 11:57:18 WARN  Main.Main:84 - Invalid type of time value
+2025-04-05 11:57:40 WARN  View:107 - Invalid numeric values
+2025-04-05 12:01:18 WARN  Main.Main:81 - Invalid type of json value
+2025-04-05 12:01:18 WARN  Main.Main:84 - Invalid type of time value
+2025-04-05 12:01:28 WARN  View:107 - Invalid name value
+2025-04-05 12:29:27 WARN  Main.Main:82 - Invalid type of json value
+2025-04-05 12:29:27 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 12:29:38 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 12:47:30 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:30 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 12:47:37 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main.Main:92 - Invalid name value
+2025-04-05 12:47:37 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 12:53:12 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 13:05:25 WARN  Main.Main:85 - Invalid type of time value
+2025-04-05 15:45:51 WARN  Main.Main:85 - Invalid type of time value
+2025-04-07 12:58:18 WARN  Main.Main:85 - Invalid type of time value
+2025-04-07 12:58:24 WARN  View:127 - Invalid numeric values
+2025-04-07 12:58:32 WARN  View:127 - Invalid numeric values
+2025-04-07 12:58:39 WARN  View:172 - Didn't chose any object to delete
+2025-04-07 13:00:20 WARN  Main.Main:85 - Invalid type of time value
+2025-04-07 13:02:59 WARN  Main.Main:84 - Invalid type of time value
+2025-04-07 13:05:07 WARN  View:171 - Didn't chose any object to delete
+2025-04-07 14:57:40 WARN  View:125 - Invalid time format!
+2025-04-07 15:46:05 WARN  MenuController:51 - Invalid time format!
+2025-04-07 15:48:09 WARN  MenuController:96 - The fields were not filled in!
+2025-04-07 18:46:22 WARN  MenuController:53 - Invalid time format!
+2025-04-07 22:31:25 WARN  MenuController:56 - Invalid time format!
+2025-04-09 19:24:39 ERROR FileReaderWriter:34 - Resource not found
+2025-04-09 20:50:49 ERROR FileReaderWriter:44 - Resource not found
+2025-04-09 20:51:32 ERROR FileReaderWriter:44 - Resource not found
+2025-04-10 11:05:38 WARN  MenuController:114 - The fields were not filled in!
+2025-04-10 18:08:33 WARN  Presenter:197 - No file selected
+2025-04-10 21:05:40 WARN  Presenter:113 - The fields were not filled in!
+2025-04-10 21:05:49 WARN  Presenter:120 - Invalid name value
+2025-04-10 21:06:02 WARN  Presenter:134 - Invalid numeric values
+2025-04-10 21:06:11 WARN  Presenter:59 - Invalid time format
+2025-04-10 21:06:15 WARN  Presenter:113 - The fields were not filled in!
+2025-04-10 21:13:30 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 21:13:59 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 21:14:02 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 21:14:05 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 21:28:28 WARN  FileReaderWriter:119 - Incorrect type of object.
+2025-04-10 21:45:38 WARN  Presenter:196 - No file selected
+2025-04-10 22:01:42 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 22:06:30 WARN  GUI:67 - Error adding object
+2025-04-10 22:06:47 WARN  Presenter:207 - Don't open any file to save
+2025-04-10 22:06:52 WARN  Presenter:167 - Didn't chose any object to delete
+2025-04-10 22:08:33 WARN  GUI:85 - Error clear table
+2025-04-10 22:09:04 WARN  GUI:67 - Error adding object
+2025-04-10 22:13:42 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:19:13 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:24:26 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:25:19 WARN  FileReaderWriter:72 - Invalid type of json value
+2025-04-10 22:25:19 WARN  FileReaderWriter:102 - Invalid type of json value
+2025-04-10 22:25:19 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:26:21 WARN  FileReaderWriter:72 - Invalid type of json value
+2025-04-10 22:26:21 WARN  FileReaderWriter:102 - Invalid type of json value
+2025-04-10 22:27:02 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:33:08 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:33:08 WARN  FileReaderWriter:115 - Invalid time value
+2025-04-10 22:33:08 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:36:10 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:36:10 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:36:41 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:36:41 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:43:44 WARN  Presenter:205 - Don't open any file to save
+2025-04-10 22:49:44 WARN  Presenter:205 - Don't open any file to save
+2025-04-10 22:53:01 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:53:01 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:53:20 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:53:20 WARN  FileReaderWriter:69 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:53:44 WARN  FileReaderWriter:75 - Invalid type of time value
+2025-04-10 22:56:52 WARN  FileReaderWriter:76 - Invalid type of time value
+2025-04-10 22:56:52 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 22:57:54 WARN  FileReaderWriter:76 - Invalid type of time value
+2025-04-10 22:57:55 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
