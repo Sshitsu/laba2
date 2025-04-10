@@ -1,5 +1,6 @@
 package Models;
 
+import Models.Classes.Drinks;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
