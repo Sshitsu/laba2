@@ -13,7 +13,6 @@ import org.apache.log4j.Logger;
 import java.io.*;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -53,6 +52,8 @@ public class FileReaderWriter {
         }
         try (Writer writer = new OutputStreamWriter(new FileOutputStream(pathToFile))) {
             mapper.writeValue(writer, jsonItems);
+        }catch (Exception e){
+            System.out.println("Error" + e.getMessage());
         }
     }
 
@@ -85,6 +86,7 @@ public class FileReaderWriter {
                     Date parsedDate = sdf.parse(timeString);
                     timeToCook = new Time(parsedDate.getTime());
                 } catch (Exception ex) {
+                    System.out.println("Error"  + ex.getMessage());
                     logger.log(org.apache.log4j.Level.WARN, "Invalid time value");
                     continue;
                 }
@@ -113,6 +115,7 @@ public class FileReaderWriter {
                     Date parsedDate = sdf.parse(timeString);
                     timeToCook = new Time(parsedDate.getTime());
                 } catch (Exception ex) {
+                    System.out.println("Error" + ex.getMessage());
                     logger.log(org.apache.log4j.Level.WARN, "Invalid time value");
                     continue;
                 }

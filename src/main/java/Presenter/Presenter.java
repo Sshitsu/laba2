@@ -44,7 +44,6 @@ public class Presenter {
     }
 
     private boolean isValidName(String name) {
-
         for (char letter : name.toCharArray()) {
             if (!Character.isLetter(letter)) {
                 return false;
@@ -59,11 +58,12 @@ public class Presenter {
             JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
             return null;
         }
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         try {
             Date parsedDate = sdf.parse(timeString);
             return new Time(parsedDate.getTime());
         } catch (Exception ex) {
+            System.out.println("Error " + ex.getMessage());
             logger.log(Level.WARN, "Invalid time format!");
             JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
             return null;
@@ -151,6 +151,7 @@ public class Presenter {
                     });
                 }
             } catch (NumberFormatException ex) {
+                System.out.println("Error " + ex.getMessage());
                 logger.log(Level.WARN, "Invalid numeric values");
                 JOptionPane.showMessageDialog(frame, "Please enter valid numeric values", "Error", JOptionPane.ERROR_MESSAGE);
             }
@@ -187,6 +188,7 @@ public class Presenter {
                 gui.updateTable(newMenuItems, tableModel, path);
                 JOptionPane.showMessageDialog(frame, "File loaded successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
             } catch (IOException ex) {
+                System.out.println("Error " + ex.getMessage());
                 logger.log(Level.WARN, "Error reading file");
                 JOptionPane.showMessageDialog(frame, "Error reading file: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             }
@@ -210,6 +212,7 @@ public class Presenter {
             fileReaderWriter.saveToJson(menuItems, pathToFile);
             JOptionPane.showMessageDialog(frame, "Data was save", "Success", JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
+            System.out.println("Error " + e.getMessage());
             logger.log(Level.ERROR, "Resource not found");
             JOptionPane.showMessageDialog(frame, "Resource not found","Something went wrong", JOptionPane.ERROR_MESSAGE);
             throw new RuntimeException(e);
@@ -217,6 +220,7 @@ public class Presenter {
     }
 
     public void initializeGui(){
+        gui.setPresenter(this);
         SwingUtilities.invokeLater(gui::initialize);
     }
 

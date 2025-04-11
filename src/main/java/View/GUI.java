@@ -26,9 +26,12 @@ public class GUI {
 
     private final Logger logger = Logger.getLogger(GUI.class);
 
+    public void setPresenter(Presenter presenter){
+        this.presenter = presenter;
+    }
+
     public GUI() {
         this.menuItems = new ArrayList<>();
-        this.presenter =  new Presenter(menuItems, this, new FileReaderWriter());
     }
 
     public void initialize() {

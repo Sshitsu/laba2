@@ -158,3 +158,23 @@
 2025-04-10 22:56:52 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
 2025-04-10 22:57:54 WARN  FileReaderWriter:76 - Invalid type of time value
 2025-04-10 22:57:55 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 23:06:54 WARN  FileReaderWriter:76 - Invalid type of time value
+2025-04-10 23:06:54 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-10 23:07:00 WARN  GUI:85 - Error clear table
+2025-04-10 23:07:01 WARN  Presenter:205 - Don't open any file to save
+2025-04-10 23:07:02 WARN  Presenter:165 - Didn't chose any object to delete
+2025-04-10 23:15:56 WARN  GUI:85 - Error clear table
+2025-04-10 23:15:58 WARN  Presenter:205 - Don't open any file to save
+2025-04-10 23:15:59 WARN  Presenter:165 - Didn't chose any object to delete
+2025-04-10 23:16:00 WARN  GUI:67 - Error adding object
+2025-04-10 23:16:04 WARN  Presenter:194 - No file selected
+2025-04-10 23:16:18 WARN  FileReaderWriter:76 - Invalid type of time value
+2025-04-10 23:16:18 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-11 12:09:44 WARN  FileReaderWriter:76 - Invalid type of time value
+2025-04-11 12:09:44 WARN  FileReaderWriter:70 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-11 12:10:34 WARN  Presenter:66 - Invalid time format!
+2025-04-11 12:10:47 WARN  Presenter:66 - Invalid time format!
+2025-04-11 12:11:33 WARN  Presenter:153 - Invalid numeric values
+2025-04-11 12:11:47 WARN  Presenter:131 - Invalid numeric values
+2025-04-11 12:11:56 WARN  Presenter:153 - Invalid numeric values
+2025-04-11 12:57:02 WARN  Presenter:166 - Didn't chose any object to delete
