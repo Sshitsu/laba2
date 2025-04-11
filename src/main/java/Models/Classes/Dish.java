@@ -2,7 +2,6 @@ package Models.Classes;
 
 import java.sql.Time;
 
-
 public  class Dish extends ObjectFromMenu {
     private int grams;
 

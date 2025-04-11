@@ -1,7 +1,9 @@
 package Models.FIleReaderWriter;
 
+
 import Models.Classes.Drinks;
 import Models.Classes.Dish;
+
 import Models.Classes.ObjectFromMenu;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -61,7 +63,10 @@ public class FileReaderWriter {
         List<ObjectFromMenu> menuItems = new ArrayList<>();
         for (JsonNode node : rootNode) {
             if(node.get("type") == null){
+
                 logger.log(Level.WARN, "Json type value is null");
+
+
                 continue;
             }
             String type = node.get("type").asText();
@@ -91,6 +96,7 @@ public class FileReaderWriter {
                     continue;
                 }
 
+
                 double cost = node.get("cost").asDouble();
                 int grams = node.get("Grams").asInt();
                 menuItems.add(new Dish(name, cost, grams, timeToCook));
@@ -107,7 +113,6 @@ public class FileReaderWriter {
                     continue;
                 }
                 String name = node.get("name").asText();
-
                 String timeString = node.get("Time to cook").asText();
                 SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
                 Time timeToCook = null;
@@ -125,6 +130,7 @@ public class FileReaderWriter {
                 menuItems.add(new Drinks(name, cost, milliliters, timeToCook));
             }else{
                 logger.log(Level.WARN, "Incorrect type of object.");
+
             }
         }
         return menuItems;

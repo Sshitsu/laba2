@@ -4,11 +4,11 @@ import Models.FIleReaderWriter.FileReaderWriter;
 import Presenter.Presenter;
 
 import Models.Classes.Drinks;
+
 import Models.Classes.Dish;
 import Models.Classes.ObjectFromMenu;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -32,6 +32,7 @@ public class GUI {
 
     public GUI() {
         this.menuItems = new ArrayList<>();
+        this.presenter =  new Presenter(menuItems, this, new FileReaderWriter());
     }
 
     public void initialize() {
@@ -64,12 +65,7 @@ public class GUI {
 
         JButton addButton = new JButton("Add object");
         addButton.addActionListener(e -> {
-            if (pathToFile != null){
-                presenter.addItem(frame, tableModel, typeComboBox);
-            }else{
-                logger.log(Level.WARN, "Error adding object");
-                JOptionPane.showMessageDialog(frame, "Dose not chose any file that's why you can't add the object.You have to open any file!", "Error", JOptionPane.ERROR_MESSAGE);
-            }
+            presenter.addItem(frame, tableModel, typeComboBox);
 
         });
 
@@ -81,13 +77,10 @@ public class GUI {
 
         JButton clearTable = new JButton("Clear table");
         clearTable.addActionListener(e -> {
-            if (pathToFile != null){
-                presenter.clearTable(tableModel);
-                menuItems.clear();
-            }else{
-                logger.log(Level.WARN, "Error clear table");
-                JOptionPane.showMessageDialog(frame, "Dose not chose any file that's why you can't clear the table.You have to open any file!", "Error", JOptionPane.ERROR_MESSAGE);
-            }
+
+            presenter.clearTable(frame,tableModel);
+            menuItems.clear();
+
         });
 
         JButton openFileButton = new JButton("Open File");

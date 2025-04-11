@@ -3,6 +3,7 @@ package Presenter;
 
 
 import Models.Classes.Drinks;
+
 import Models.Classes.Dish;
 import Models.Classes.ObjectFromMenu;
 
@@ -44,6 +45,7 @@ public class Presenter {
     }
 
     private boolean isValidName(String name) {
+
         for (char letter : name.toCharArray()) {
             if (!Character.isLetter(letter)) {
                 return false;
@@ -53,6 +55,9 @@ public class Presenter {
     }
 
     private Time parseTime(String timeString, JFrame frame) {
+
+
+
         if (timeString.length() > 8) {
             logger.log(Level.WARN, "Invalid time format");
             JOptionPane.showMessageDialog(frame, "Invalid time format! Please use HH:mm:ss.", "Error", JOptionPane.ERROR_MESSAGE);
@@ -151,6 +156,7 @@ public class Presenter {
                     });
                 }
             } catch (NumberFormatException ex) {
+
                 System.out.println("Error " + ex.getMessage());
                 logger.log(Level.WARN, "Invalid numeric values");
                 JOptionPane.showMessageDialog(frame, "Please enter valid numeric values", "Error", JOptionPane.ERROR_MESSAGE);
@@ -188,6 +194,7 @@ public class Presenter {
                 gui.updateTable(newMenuItems, tableModel, path);
                 JOptionPane.showMessageDialog(frame, "File loaded successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
             } catch (IOException ex) {
+
                 System.out.println("Error " + ex.getMessage());
                 logger.log(Level.WARN, "Error reading file");
                 JOptionPane.showMessageDialog(frame, "Error reading file: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
@@ -198,7 +205,7 @@ public class Presenter {
         }
     }
 
-    public void clearTable( DefaultTableModel tableModel){
+    public void clearTable(JFrame frame, DefaultTableModel tableModel){
         tableModel.setRowCount(0);
     }
 
@@ -212,6 +219,7 @@ public class Presenter {
             fileReaderWriter.saveToJson(menuItems, pathToFile);
             JOptionPane.showMessageDialog(frame, "Data was save", "Success", JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
+
             System.out.println("Error " + e.getMessage());
             logger.log(Level.ERROR, "Resource not found");
             JOptionPane.showMessageDialog(frame, "Resource not found","Something went wrong", JOptionPane.ERROR_MESSAGE);

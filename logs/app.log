@@ -123,6 +123,7 @@
 2025-04-10 21:13:59 WARN  Presenter:207 - Don't open any file to save
 2025-04-10 21:14:02 WARN  Presenter:207 - Don't open any file to save
 2025-04-10 21:14:05 WARN  Presenter:207 - Don't open any file to save
+<<<<<<< HEAD
 2025-04-10 21:28:28 WARN  FileReaderWriter:119 - Incorrect type of object.
 2025-04-10 21:45:38 WARN  Presenter:196 - No file selected
 2025-04-10 22:01:42 WARN  Presenter:207 - Don't open any file to save
@@ -178,3 +179,5 @@
 2025-04-11 12:11:47 WARN  Presenter:131 - Invalid numeric values
 2025-04-11 12:11:56 WARN  Presenter:153 - Invalid numeric values
 2025-04-11 12:57:02 WARN  Presenter:166 - Didn't chose any object to delete
+=======
+>>>>>>> 7e4f35e9baaf6529e5ef7f5af7acca9e0abccea1
