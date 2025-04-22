@@ -232,5 +232,6 @@ public class Presenter {
         SwingUtilities.invokeLater(gui::initialize);
     }
 
+    public void foo(){}
 
 }

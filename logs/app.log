@@ -200,3 +200,15 @@
 2025-04-22 21:10:49 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
 2025-04-22 21:12:13 WARN  FileReaderWriter:82 - Invalid type of time value
 2025-04-22 21:12:13 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:12:20 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:12:20 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:15:04 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:15:04 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:17:42 WARN  FileReaderWriter:67 - Json type value is null
+2025-04-22 21:17:42 WARN  FileReaderWriter:67 - Json type value is null
+2025-04-22 21:17:42 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:17:42 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:19:41 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:19:41 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:20:30 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:20:30 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
