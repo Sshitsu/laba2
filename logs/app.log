@@ -188,3 +188,11 @@
 2025-04-11 14:45:02 WARN  Presenter:207 - Don't open any file to save
 2025-04-11 14:45:04 WARN  GUI:88 - Error clear table
 
+2025-04-22 20:41:41 WARN  FileReaderWriter:67 - Json type value is null
+2025-04-22 20:41:41 WARN  FileReaderWriter:67 - Json type value is null
+2025-04-22 20:41:41 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 20:41:41 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:08:05 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:08:05 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
+2025-04-22 21:08:25 WARN  FileReaderWriter:82 - Invalid type of time value
+2025-04-22 21:08:25 WARN  FileReaderWriter:76 - Invalid type of json value or don't all values matter or they have incorrect value
