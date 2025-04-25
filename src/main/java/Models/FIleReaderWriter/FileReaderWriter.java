@@ -135,5 +135,7 @@ public class FileReaderWriter {
         }
         return menuItems;
     }
+    public void foo(){};
+
 
 }
